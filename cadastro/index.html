@@ -26,7 +26,14 @@
 
 <nav>
   <a class="nav-brand" href="../"><img class="nav-logo" src="../images/logo.png" alt="Cibely Ito — nutrir para crescer"></a>
-  <a href="../" style="color:var(--ink);text-decoration:none;font-size:.85rem;font-weight:600;">← Voltar ao site</a>
+  <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="../">Início</a></li>
+    <li><a href="../terapia-alimentar-seletividade/">Seletividade</a></li>
+    <li><a href="../consulta-nutricionista-infantil/">Nutrição infantil</a></li>
+    <li><a href="../visita-escolar/">Visita escolar</a></li>
+    <li><a class="btn btn-wa btn-sm" data-wa="Olá! Estou preenchendo o cadastro pré-consulta e tenho uma dúvida." href="#">Agendar pelo WhatsApp</a></li>
+  </ul>
 </nav>
 
 <main>
@@ -45,5 +52,11 @@
   <p class="foot-note" style="border-top:none;padding-top:0;">Cibely Akemi Ito · CRN3-64690 · Todos os direitos reservados © 2026</p>
 </footer>
 
+<a class="wa-float" data-wa="Olá! Estou preenchendo o cadastro pré-consulta e tenho uma dúvida." href="#" aria-label="Falar no WhatsApp">
+  <svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1.4em;height:1.4em;"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.1.2-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.2 1.1 2.3 1.5 2.6 1.6.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.4 0 .1 0 .7-.2 1.3Z"/></svg>
+  <span>Falar no WhatsApp</span>
+</a>
+
+<script src="../site.js?v=3"></script>
 </body>
 </html>
